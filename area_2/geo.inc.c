@@ -1,14 +1,14 @@
 #include "src/game/envfx_snow.h"
 
-const GeoLayout castle_grounds_area_2_geo[] = {
+const GeoLayout _area_2_geo[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 975, -226, 0, castle_grounds_dl_Cube_mesh_layer_1),
-		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 1734, 551, 606, castle_grounds_dl_Cube_004_mesh_layer_1),
+		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 975, -226, 0, _dl_Cube_mesh_layer_1),
+		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 1734, 551, 606, _dl_Cube_004_mesh_layer_1),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout castle_grounds_area_2[] = {
+const GeoLayout _area_2[] = {
 	GEO_NODE_SCREEN_AREA(10, SCREEN_WIDTH/2, SCREEN_HEIGHT/2, SCREEN_WIDTH/2, SCREEN_HEIGHT/2),
 	GEO_OPEN_NODE(),
 		GEO_ZBUFFER(0),
@@ -24,13 +24,13 @@ const GeoLayout castle_grounds_area_2[] = {
 			GEO_OPEN_NODE(),
 				GEO_CAMERA(CAMERA_MODE_8_DIRECTIONS, -13495, 226, 0, -13495, 126, 0, geo_camera_main),
 				GEO_OPEN_NODE(),
-					GEO_BRANCH(1, castle_grounds_area_2_geo),
+					GEO_BRANCH(1, _area_2_geo),
 					GEO_RENDER_OBJ(),
 					GEO_ASM(ENVFX_MODE_NONE, geo_envfx_main),
 				GEO_CLOSE_NODE(),
 			GEO_CLOSE_NODE(),
 		GEO_CLOSE_NODE(),
-		GEO_DISPLAY_LIST(LAYER_OPAQUE, castle_grounds_dl_material_revert_render_settings),
+		GEO_DISPLAY_LIST(LAYER_OPAQUE, _dl_material_revert_render_settings),
 	GEO_CLOSE_NODE(),
 	GEO_END(),
 };

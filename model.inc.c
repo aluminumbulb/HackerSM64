@@ -1,48 +1,48 @@
-Lights1 castle_grounds_dl_Hanging_lights = gdSPDefLights1(
+Lights1 _dl_Hanging_lights = gdSPDefLights1(
 	0x0, 0x7F, 0x1F,
 	0x0, 0xFF, 0x48, 0x28, 0x28, 0x28);
 
-Lights1 castle_grounds_dl_Hor__Wind_lights = gdSPDefLights1(
+Lights1 _dl_Hor__Wind_lights = gdSPDefLights1(
 	0x7F, 0x40, 0x47,
 	0xFF, 0x87, 0x94, 0x28, 0x28, 0x28);
 
-Lights1 castle_grounds_dl_Sand_003_lights = gdSPDefLights1(
+Lights1 _dl_Sand_003_lights = gdSPDefLights1(
 	0x69, 0x7F, 0x37,
 	0xD4, 0xFF, 0x74, 0x28, 0x28, 0x28);
 
-Lights1 castle_grounds_dl_f3dlite_material_004_lights = gdSPDefLights1(
+Lights1 _dl_f3dlite_material_004_lights = gdSPDefLights1(
 	0x7F, 0x56, 0x74,
 	0xFF, 0xB0, 0xE9, 0x28, 0x28, 0x28);
 
-Lights1 castle_grounds_dl_Slippery_lights = gdSPDefLights1(
+Lights1 _dl_Slippery_lights = gdSPDefLights1(
 	0x19, 0x7C, 0x7F,
 	0x3D, 0xF8, 0xFF, 0x28, 0x28, 0x28);
 
-Lights1 castle_grounds_dl_F3D_Death_lights = gdSPDefLights1(
+Lights1 _dl_F3D_Death_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
 
-Lights1 castle_grounds_dl_Standard_001_lights = gdSPDefLights1(
+Lights1 _dl_Standard_001_lights = gdSPDefLights1(
 	0x14, 0x14, 0x14,
 	0x33, 0x33, 0x33, 0x28, 0x28, 0x28);
 
-Lights1 castle_grounds_dl_Standard_lights = gdSPDefLights1(
+Lights1 _dl_Standard_lights = gdSPDefLights1(
 	0x0, 0x0, 0x0,
 	0x0, 0x0, 0x0, 0x28, 0x28, 0x28);
 
-Lights1 castle_grounds_dl_PillarTex_lights = gdSPDefLights1(
+Lights1 _dl_PillarTex_lights = gdSPDefLights1(
 	0x7F, 0x7C, 0x56,
 	0xFF, 0xF9, 0xB1, 0x28, 0x28, 0x28);
 
-Lights1 castle_grounds_dl_Slide_lights = gdSPDefLights1(
+Lights1 _dl_Slide_lights = gdSPDefLights1(
 	0x53, 0x22, 0x7F,
 	0xAA, 0x4E, 0xFF, 0x28, 0x28, 0x28);
 
-Lights1 castle_grounds_dl_bright_standard_lights = gdSPDefLights1(
+Lights1 _dl_bright_standard_lights = gdSPDefLights1(
 	0x42, 0x44, 0x28,
 	0x8B, 0x8D, 0x58, 0x28, 0x28, 0x28);
 
-Vtx castle_grounds_dl_Balance_Beam_mesh_layer_1_vtx_0[44] = {
+Vtx _dl_Balance_Beam_mesh_layer_1_vtx_0[44] = {
 	{{ {-2425, -96, 45}, 0, {368, 1008}, {129, 0, 0, 255} }},
 	{{ {-2425, 96, 45}, 0, {624, 1008}, {129, 0, 0, 255} }},
 	{{ {-2425, 96, -45}, 0, {624, 752}, {129, 0, 0, 255} }},
@@ -89,8 +89,8 @@ Vtx castle_grounds_dl_Balance_Beam_mesh_layer_1_vtx_0[44] = {
 	{{ {-442, -96, 45}, 0, {217, 240}, {0, 129, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Balance_Beam_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Balance_Beam_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Balance_Beam_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Balance_Beam_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -101,7 +101,7 @@ Gfx castle_grounds_dl_Balance_Beam_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(10, 11, 9, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Balance_Beam_mesh_layer_1_vtx_0 + 16, 16, 0),
+	gsSPVertex(_dl_Balance_Beam_mesh_layer_1_vtx_0 + 16, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 3, 0, 0),
@@ -112,7 +112,7 @@ Gfx castle_grounds_dl_Balance_Beam_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Balance_Beam_mesh_layer_1_vtx_0 + 32, 12, 0),
+	gsSPVertex(_dl_Balance_Beam_mesh_layer_1_vtx_0 + 32, 12, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -122,21 +122,21 @@ Gfx castle_grounds_dl_Balance_Beam_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Balance_Beam_mesh_layer_1_vtx_1[4] = {
+Vtx _dl_Balance_Beam_mesh_layer_1_vtx_1[4] = {
 	{{ {442, 96, -45}, 0, {729, 496}, {0, 127, 0, 255} }},
 	{{ {-442, 96, -45}, 0, {775, 496}, {0, 127, 0, 255} }},
 	{{ {-442, 96, 45}, 0, {775, 240}, {0, 127, 0, 255} }},
 	{{ {442, 96, 45}, 0, {729, 240}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Balance_Beam_mesh_layer_1_tri_1[] = {
-	gsSPVertex(castle_grounds_dl_Balance_Beam_mesh_layer_1_vtx_1 + 0, 4, 0),
+Gfx _dl_Balance_Beam_mesh_layer_1_tri_1[] = {
+	gsSPVertex(_dl_Balance_Beam_mesh_layer_1_vtx_1 + 0, 4, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Balance_Beam_001_mesh_layer_1_vtx_0[40] = {
+Vtx _dl_Balance_Beam_001_mesh_layer_1_vtx_0[40] = {
 	{{ {-2327, -96, 45}, 0, {368, 1008}, {129, 0, 0, 255} }},
 	{{ {-2327, 96, 45}, 0, {624, 1008}, {129, 0, 0, 255} }},
 	{{ {-2327, 96, -45}, 0, {624, 752}, {129, 0, 0, 255} }},
@@ -179,8 +179,8 @@ Vtx castle_grounds_dl_Balance_Beam_001_mesh_layer_1_vtx_0[40] = {
 	{{ {425, 96, -45}, 0, {729, 496}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Balance_Beam_001_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Balance_Beam_001_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Balance_Beam_001_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Balance_Beam_001_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -191,7 +191,7 @@ Gfx castle_grounds_dl_Balance_Beam_001_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(10, 11, 9, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Balance_Beam_001_mesh_layer_1_vtx_0 + 16, 16, 0),
+	gsSPVertex(_dl_Balance_Beam_001_mesh_layer_1_vtx_0 + 16, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 3, 0, 0),
@@ -204,7 +204,7 @@ Gfx castle_grounds_dl_Balance_Beam_001_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(14, 12, 13, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Balance_Beam_001_mesh_layer_1_vtx_0 + 32, 8, 0),
+	gsSPVertex(_dl_Balance_Beam_001_mesh_layer_1_vtx_0 + 32, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -212,21 +212,21 @@ Gfx castle_grounds_dl_Balance_Beam_001_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Balance_Beam_001_mesh_layer_1_vtx_1[4] = {
+Vtx _dl_Balance_Beam_001_mesh_layer_1_vtx_1[4] = {
 	{{ {425, 96, -45}, 0, {729, 496}, {0, 127, 0, 255} }},
 	{{ {-425, 96, -45}, 0, {775, 496}, {0, 127, 0, 255} }},
 	{{ {-425, 96, 45}, 0, {775, 240}, {0, 127, 0, 255} }},
 	{{ {425, 96, 45}, 0, {729, 240}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Balance_Beam_001_mesh_layer_1_tri_1[] = {
-	gsSPVertex(castle_grounds_dl_Balance_Beam_001_mesh_layer_1_vtx_1 + 0, 4, 0),
+Gfx _dl_Balance_Beam_001_mesh_layer_1_tri_1[] = {
+	gsSPVertex(_dl_Balance_Beam_001_mesh_layer_1_vtx_1 + 0, 4, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_0[40] = {
+Vtx _dl_Ball_Pit_mesh_layer_1_vtx_0[40] = {
 	{{ {422, 39, -884}, 0, {2408, -4070}, {0, 127, 0, 255} }},
 	{{ {250, 39, -937}, 0, {1417, -4370}, {0, 127, 0, 255} }},
 	{{ {70, 39, -954}, 0, {386, -4472}, {0, 127, 0, 255} }},
@@ -269,8 +269,8 @@ Vtx castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_0[40] = {
 	{{ {920, 39, 318}, 0, {5269, 2836}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Ball_Pit_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(2, 4, 3, 0),
@@ -284,7 +284,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(5, 11, 13, 0),
 	gsSP1Triangle(11, 14, 13, 0),
 	gsSP1Triangle(11, 15, 14, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_0 + 16, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_0 + 16, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 3, 4, 0),
 	gsSP1Triangle(2, 4, 5, 0),
@@ -297,7 +297,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(7, 12, 13, 0),
 	gsSP1Triangle(12, 14, 13, 0),
 	gsSP1Triangle(7, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_0 + 32, 8, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_0 + 32, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(1, 4, 2, 0),
@@ -306,7 +306,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1[469] = {
+Vtx _dl_Ball_Pit_mesh_layer_1_vtx_1[469] = {
 	{{ {-764, 251, -1285}, 0, {-3838, -5522}, {0, 127, 0, 255} }},
 	{{ {-511, 251, -1420}, 0, {-2559, -6205}, {0, 127, 0, 255} }},
 	{{ {-557, 251, -1531}, 0, {-3212, -7780}, {0, 127, 0, 255} }},
@@ -778,8 +778,8 @@ Vtx castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1[469] = {
 	{{ {-1147, 251, 1725}, 0, {-4785, 8190}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 0, 16, 0),
+Gfx _dl_Ball_Pit_mesh_layer_1_tri_1[] = {
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(3, 2, 4, 0),
@@ -794,7 +794,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(12, 13, 11, 0),
 	gsSP1Triangle(12, 14, 13, 0),
 	gsSP1Triangle(14, 15, 13, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 16, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 16, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(1, 3, 2, 0),
 	gsSP1Triangle(1, 4, 3, 0),
@@ -809,7 +809,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(12, 13, 11, 0),
 	gsSP1Triangle(12, 14, 13, 0),
 	gsSP1Triangle(14, 15, 13, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 32, 15, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 32, 15, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(1, 3, 2, 0),
 	gsSP1Triangle(1, 4, 3, 0),
@@ -823,7 +823,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(10, 12, 11, 0),
 	gsSP1Triangle(9, 11, 13, 0),
 	gsSP1Triangle(9, 13, 14, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 47, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 47, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 4, 0, 0),
 	gsSP1Triangle(3, 0, 5, 0),
@@ -837,7 +837,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(14, 12, 13, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 63, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 63, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -855,7 +855,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(13, 1, 0, 0),
 	gsSP1Triangle(13, 14, 1, 0),
 	gsSP1Triangle(14, 15, 1, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 79, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 79, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(1, 3, 2, 0),
 	gsSP1Triangle(1, 4, 3, 0),
@@ -868,7 +868,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(13, 9, 10, 0),
 	gsSP1Triangle(13, 10, 14, 0),
 	gsSP1Triangle(15, 13, 14, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 95, 15, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 95, 15, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 1, 3, 0),
 	gsSP1Triangle(2, 3, 4, 0),
@@ -878,7 +878,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(9, 10, 8, 0),
 	gsSP1Triangle(11, 12, 13, 0),
 	gsSP1Triangle(11, 13, 14, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 110, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 110, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 3, 0, 0),
@@ -894,7 +894,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(11, 8, 13, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 126, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 126, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 0, 2, 0),
 	gsSP1Triangle(3, 2, 4, 0),
@@ -910,7 +910,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(13, 10, 12, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(15, 13, 14, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 142, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 142, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 0, 2, 0),
 	gsSP1Triangle(3, 2, 4, 0),
@@ -925,7 +925,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(13, 11, 12, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(15, 13, 14, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 158, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 158, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 0, 2, 0),
 	gsSP1Triangle(3, 2, 4, 0),
@@ -940,7 +940,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(13, 11, 12, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(15, 13, 14, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 174, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 174, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 0, 2, 0),
 	gsSP1Triangle(3, 2, 4, 0),
@@ -955,7 +955,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(13, 11, 12, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(15, 13, 14, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 190, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 190, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 4, 0, 0),
 	gsSP1Triangle(3, 5, 4, 0),
@@ -971,7 +971,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(12, 10, 13, 0),
 	gsSP1Triangle(10, 14, 13, 0),
 	gsSP1Triangle(10, 15, 14, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 206, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 206, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 0, 2, 0),
 	gsSP1Triangle(4, 3, 2, 0),
@@ -986,7 +986,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(6, 12, 13, 0),
 	gsSP1Triangle(14, 6, 13, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 222, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 222, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -1001,7 +1001,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(14, 12, 13, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 238, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 238, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -1020,7 +1020,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(1, 0, 4, 0),
 	gsSP1Triangle(1, 4, 8, 0),
 	gsSP1Triangle(4, 6, 8, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 254, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 254, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(2, 4, 3, 0),
@@ -1033,7 +1033,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(12, 13, 10, 0),
 	gsSP1Triangle(12, 14, 13, 0),
 	gsSP1Triangle(15, 14, 12, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 270, 15, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 270, 15, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(1, 3, 2, 0),
 	gsSP1Triangle(1, 4, 3, 0),
@@ -1043,7 +1043,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(7, 9, 10, 0),
 	gsSP1Triangle(11, 12, 13, 0),
 	gsSP1Triangle(11, 13, 14, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 285, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 285, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -1058,7 +1058,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(14, 12, 13, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 301, 14, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 301, 14, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -1071,7 +1071,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(10, 9, 11, 0),
 	gsSP1Triangle(12, 10, 11, 0),
 	gsSP1Triangle(12, 11, 13, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 315, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 315, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1080,7 +1080,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 331, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 331, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1089,7 +1089,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 347, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 347, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1098,7 +1098,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 363, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 363, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1107,7 +1107,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 379, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 379, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1116,7 +1116,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 395, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 395, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1125,7 +1125,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 411, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 411, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1134,7 +1134,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 427, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 427, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1143,7 +1143,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 443, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 443, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1152,7 +1152,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_1 + 459, 10, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_1 + 459, 10, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(3, 4, 1, 0),
@@ -1162,7 +1162,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_2[128] = {
+Vtx _dl_Ball_Pit_mesh_layer_1_vtx_2[128] = {
 	{{ {70, 39, -954}, 0, {386, -4472}, {252, 119, 44, 255} }},
 	{{ {250, 39, -937}, 0, {1417, -4370}, {252, 119, 44, 255} }},
 	{{ {336, 251, -1504}, 0, {1712, -6626}, {252, 119, 44, 255} }},
@@ -1293,8 +1293,8 @@ Vtx castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_2[128] = {
 	{{ {-236, 251, -1504}, 0, {-1172, -6626}, {4, 119, 43, 255} }},
 };
 
-Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_2[] = {
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_2 + 0, 16, 0),
+Gfx _dl_Ball_Pit_mesh_layer_1_tri_2[] = {
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_2 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1303,7 +1303,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_2[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_2 + 16, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_2 + 16, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1312,7 +1312,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_2[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_2 + 32, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_2 + 32, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1321,7 +1321,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_2[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_2 + 48, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_2 + 48, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1330,7 +1330,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_2[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_2 + 64, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_2 + 64, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1339,7 +1339,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_2[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_2 + 80, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_2 + 80, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1348,7 +1348,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_2[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_2 + 96, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_2 + 96, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1357,7 +1357,7 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_2[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Ball_Pit_mesh_layer_1_vtx_2 + 112, 16, 0),
+	gsSPVertex(_dl_Ball_Pit_mesh_layer_1_vtx_2 + 112, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1369,21 +1369,21 @@ Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_DeathPlane_mesh_layer_1_vtx_0[4] = {
+Vtx _dl_DeathPlane_mesh_layer_1_vtx_0[4] = {
 	{{ {-5238, 0, 5238}, 0, {-16, 1008}, {0, 127, 0, 255} }},
 	{{ {5238, 0, 5238}, 0, {1008, 1008}, {0, 127, 0, 255} }},
 	{{ {5238, 0, -5238}, 0, {1008, -16}, {0, 127, 0, 255} }},
 	{{ {-5238, 0, -5238}, 0, {-16, -16}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_DeathPlane_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_DeathPlane_mesh_layer_1_vtx_0 + 0, 4, 0),
+Gfx _dl_DeathPlane_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_DeathPlane_mesh_layer_1_vtx_0 + 0, 4, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Door_Pillar_mesh_layer_1_vtx_0[24] = {
+Vtx _dl_Door_Pillar_mesh_layer_1_vtx_0[24] = {
 	{{ {-100, -738, 100}, 0, {368, 1008}, {129, 0, 0, 255} }},
 	{{ {-100, 738, 100}, 0, {624, 1008}, {129, 0, 0, 255} }},
 	{{ {-100, 738, -100}, 0, {624, 752}, {129, 0, 0, 255} }},
@@ -1410,8 +1410,8 @@ Vtx castle_grounds_dl_Door_Pillar_mesh_layer_1_vtx_0[24] = {
 	{{ {100, 738, 100}, 0, {624, 240}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Door_Pillar_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Door_Pillar_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Door_Pillar_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Door_Pillar_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1420,7 +1420,7 @@ Gfx castle_grounds_dl_Door_Pillar_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Door_Pillar_mesh_layer_1_vtx_0 + 16, 8, 0),
+	gsSPVertex(_dl_Door_Pillar_mesh_layer_1_vtx_0 + 16, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1428,7 +1428,7 @@ Gfx castle_grounds_dl_Door_Pillar_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Door_Pillar_001_mesh_layer_1_vtx_0[24] = {
+Vtx _dl_Door_Pillar_001_mesh_layer_1_vtx_0[24] = {
 	{{ {-100, -738, 100}, 0, {368, 1008}, {129, 0, 0, 255} }},
 	{{ {-100, 738, 100}, 0, {624, 1008}, {129, 0, 0, 255} }},
 	{{ {-100, 738, -100}, 0, {624, 752}, {129, 0, 0, 255} }},
@@ -1455,8 +1455,8 @@ Vtx castle_grounds_dl_Door_Pillar_001_mesh_layer_1_vtx_0[24] = {
 	{{ {100, 738, 100}, 0, {624, 240}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Door_Pillar_001_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Door_Pillar_001_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Door_Pillar_001_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Door_Pillar_001_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1465,7 +1465,7 @@ Gfx castle_grounds_dl_Door_Pillar_001_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Door_Pillar_001_mesh_layer_1_vtx_0 + 16, 8, 0),
+	gsSPVertex(_dl_Door_Pillar_001_mesh_layer_1_vtx_0 + 16, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1473,7 +1473,7 @@ Gfx castle_grounds_dl_Door_Pillar_001_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Floor_mesh_layer_1_vtx_0[364] = {
+Vtx _dl_Floor_mesh_layer_1_vtx_0[364] = {
 	{{ {-2044, 77, 199}, 0, {624, 380}, {11, 129, 0, 255} }},
 	{{ {-2044, 77, 2044}, 0, {624, 496}, {11, 129, 0, 255} }},
 	{{ {-2128, 70, 2128}, 0, {624, 496}, {11, 129, 0, 255} }},
@@ -1840,8 +1840,8 @@ Vtx castle_grounds_dl_Floor_mesh_layer_1_vtx_0[364] = {
 	{{ {-2367, 1997, -231}, 0, {624, 356}, {104, 184, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Floor_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -1854,7 +1854,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(14, 12, 13, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 16, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 16, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -1865,7 +1865,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(11, 14, 13, 0),
 	gsSP1Triangle(12, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 32, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 32, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 3, 4, 0),
 	gsSP1Triangle(2, 5, 3, 0),
@@ -1877,7 +1877,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(13, 14, 12, 0),
 	gsSP1Triangle(13, 15, 14, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 48, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 48, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 1, 3, 0),
 	gsSP1Triangle(1, 4, 3, 0),
@@ -1890,7 +1890,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(9, 10, 11, 0),
 	gsSP1Triangle(12, 9, 11, 0),
 	gsSP1Triangle(13, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 64, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 64, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 0, 2, 0),
 	gsSP1Triangle(3, 2, 4, 0),
@@ -1903,7 +1903,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(10, 11, 3, 0),
 	gsSP1Triangle(11, 12, 3, 0),
 	gsSP1Triangle(13, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 80, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 80, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(3, 4, 0, 0),
@@ -1919,7 +1919,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(15, 12, 14, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 96, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 96, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(3, 4, 1, 0),
@@ -1932,7 +1932,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(14, 12, 13, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 112, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 112, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -1943,7 +1943,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(10, 9, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 128, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 128, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -1956,7 +1956,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(13, 10, 12, 0),
 	gsSP1Triangle(14, 13, 12, 0),
 	gsSP1Triangle(14, 12, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 144, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 144, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(0, 3, 4, 0),
@@ -1970,7 +1970,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(13, 11, 12, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(13, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 160, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 160, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 1, 0, 0),
 	gsSP1Triangle(3, 4, 1, 0),
@@ -1979,7 +1979,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(9, 10, 11, 0),
 	gsSP1Triangle(9, 11, 12, 0),
 	gsSP1Triangle(13, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 176, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 176, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 4, 5, 0),
 	gsSP1Triangle(3, 5, 6, 0),
@@ -1990,7 +1990,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(13, 12, 9, 0),
 	gsSP1Triangle(13, 14, 12, 0),
 	gsSP1Triangle(15, 14, 13, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 192, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 192, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 1, 3, 0),
 	gsSP1Triangle(2, 3, 4, 0),
@@ -2005,7 +2005,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(13, 11, 12, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(15, 11, 13, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 208, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 208, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 1, 0, 0),
 	gsSP1Triangle(3, 4, 1, 0),
@@ -2020,7 +2020,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(11, 12, 13, 0),
 	gsSP1Triangle(11, 14, 12, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 224, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 224, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 1, 3, 0),
 	gsSP1Triangle(2, 3, 4, 0),
@@ -2033,7 +2033,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(10, 12, 13, 0),
 	gsSP1Triangle(10, 13, 14, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 240, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 240, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 1, 3, 0),
 	gsSP1Triangle(2, 3, 4, 0),
@@ -2044,7 +2044,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(11, 12, 13, 0),
 	gsSP1Triangle(11, 14, 12, 0),
 	gsSP1Triangle(15, 14, 11, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 256, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 256, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -2054,7 +2054,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 272, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 272, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2065,7 +2065,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(10, 9, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 15, 13, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 288, 14, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 288, 14, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2074,7 +2074,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 9, 7, 0),
 	gsSP1Triangle(10, 11, 12, 0),
 	gsSP1Triangle(10, 12, 13, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 302, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 302, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2085,7 +2085,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(10, 9, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 318, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 318, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -2096,7 +2096,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(10, 13, 11, 0),
 	gsSP1Triangle(10, 14, 13, 0),
 	gsSP1Triangle(10, 15, 14, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 334, 14, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 334, 14, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -2109,7 +2109,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 8, 11, 0),
 	gsSP1Triangle(12, 11, 13, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_0 + 348, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_0 + 348, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 3, 0, 0),
@@ -2127,7 +2127,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Floor_mesh_layer_1_vtx_1[75] = {
+Vtx _dl_Floor_mesh_layer_1_vtx_1[75] = {
 	{{ {-2367, -250, -231}, 0, {368, 356}, {129, 0, 0, 255} }},
 	{{ {-2367, 70, -2367}, 0, {624, 240}, {129, 0, 0, 255} }},
 	{{ {-2367, -250, -2367}, 0, {368, 240}, {129, 0, 0, 255} }},
@@ -2205,8 +2205,8 @@ Vtx castle_grounds_dl_Floor_mesh_layer_1_vtx_1[75] = {
 	{{ {-2367, 1997, 231}, 0, {624, 380}, {244, 0, 130, 255} }},
 };
 
-Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_1[] = {
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_1 + 0, 16, 0),
+Gfx _dl_Floor_mesh_layer_1_tri_1[] = {
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_1 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 3, 0, 0),
@@ -2221,7 +2221,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(11, 12, 13, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(13, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_1 + 16, 15, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_1 + 16, 15, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -2236,7 +2236,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(11, 13, 12, 0),
 	gsSP1Triangle(9, 12, 14, 0),
 	gsSP1Triangle(9, 14, 7, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_1 + 31, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_1 + 31, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -2247,7 +2247,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_1 + 47, 16, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_1 + 47, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -2260,7 +2260,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(14, 12, 13, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Floor_mesh_layer_1_vtx_1 + 63, 12, 0),
+	gsSPVertex(_dl_Floor_mesh_layer_1_vtx_1 + 63, 12, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2270,7 +2270,7 @@ Gfx castle_grounds_dl_Floor_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Pillar_mesh_layer_1_vtx_0[24] = {
+Vtx _dl_Pillar_mesh_layer_1_vtx_0[24] = {
 	{{ {-182, -1092, 182}, 0, {368, 1008}, {129, 0, 0, 255} }},
 	{{ {-182, 1092, 182}, 0, {624, 1008}, {129, 0, 0, 255} }},
 	{{ {-182, 1092, -182}, 0, {624, 752}, {129, 0, 0, 255} }},
@@ -2297,8 +2297,8 @@ Vtx castle_grounds_dl_Pillar_mesh_layer_1_vtx_0[24] = {
 	{{ {182, 1092, 182}, 0, {624, 240}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Pillar_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Pillar_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Pillar_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Pillar_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2307,7 +2307,7 @@ Gfx castle_grounds_dl_Pillar_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Pillar_mesh_layer_1_vtx_0 + 16, 8, 0),
+	gsSPVertex(_dl_Pillar_mesh_layer_1_vtx_0 + 16, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2315,7 +2315,7 @@ Gfx castle_grounds_dl_Pillar_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Pillar_2_mesh_layer_1_vtx_0[24] = {
+Vtx _dl_Pillar_2_mesh_layer_1_vtx_0[24] = {
 	{{ {-182, -1092, 182}, 0, {368, 1008}, {129, 0, 0, 255} }},
 	{{ {-182, 1092, 182}, 0, {624, 1008}, {129, 0, 0, 255} }},
 	{{ {-182, 1092, -182}, 0, {624, 752}, {129, 0, 0, 255} }},
@@ -2342,8 +2342,8 @@ Vtx castle_grounds_dl_Pillar_2_mesh_layer_1_vtx_0[24] = {
 	{{ {182, 1092, 182}, 0, {624, 240}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Pillar_2_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Pillar_2_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Pillar_2_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Pillar_2_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2352,7 +2352,7 @@ Gfx castle_grounds_dl_Pillar_2_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Pillar_2_mesh_layer_1_vtx_0 + 16, 8, 0),
+	gsSPVertex(_dl_Pillar_2_mesh_layer_1_vtx_0 + 16, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2360,7 +2360,7 @@ Gfx castle_grounds_dl_Pillar_2_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Pillar_3_mesh_layer_1_vtx_0[24] = {
+Vtx _dl_Pillar_3_mesh_layer_1_vtx_0[24] = {
 	{{ {-182, -1092, 182}, 0, {368, 1008}, {129, 0, 0, 255} }},
 	{{ {-182, 1092, 182}, 0, {624, 1008}, {129, 0, 0, 255} }},
 	{{ {-182, 1092, -182}, 0, {624, 752}, {129, 0, 0, 255} }},
@@ -2387,8 +2387,8 @@ Vtx castle_grounds_dl_Pillar_3_mesh_layer_1_vtx_0[24] = {
 	{{ {182, 1092, 182}, 0, {624, 240}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Pillar_3_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Pillar_3_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Pillar_3_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Pillar_3_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2397,7 +2397,7 @@ Gfx castle_grounds_dl_Pillar_3_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Pillar_3_mesh_layer_1_vtx_0 + 16, 8, 0),
+	gsSPVertex(_dl_Pillar_3_mesh_layer_1_vtx_0 + 16, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2405,7 +2405,7 @@ Gfx castle_grounds_dl_Pillar_3_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Pillar_4_mesh_layer_1_vtx_0[24] = {
+Vtx _dl_Pillar_4_mesh_layer_1_vtx_0[24] = {
 	{{ {-182, -1092, 182}, 0, {368, 1008}, {129, 0, 0, 255} }},
 	{{ {-182, 1092, 182}, 0, {624, 1008}, {129, 0, 0, 255} }},
 	{{ {-182, 1092, -182}, 0, {624, 752}, {129, 0, 0, 255} }},
@@ -2432,8 +2432,8 @@ Vtx castle_grounds_dl_Pillar_4_mesh_layer_1_vtx_0[24] = {
 	{{ {182, 1092, 182}, 0, {624, 240}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Pillar_4_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Pillar_4_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Pillar_4_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Pillar_4_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2442,7 +2442,7 @@ Gfx castle_grounds_dl_Pillar_4_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Pillar_4_mesh_layer_1_vtx_0 + 16, 8, 0),
+	gsSPVertex(_dl_Pillar_4_mesh_layer_1_vtx_0 + 16, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2450,7 +2450,7 @@ Gfx castle_grounds_dl_Pillar_4_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Slide_mesh_layer_1_vtx_0[300] = {
+Vtx _dl_Slide_mesh_layer_1_vtx_0[300] = {
 	{{ {606, 374, -186}, 0, {293, 496}, {195, 144, 0, 255} }},
 	{{ {433, 468, -289}, 0, {278, 496}, {195, 144, 0, 255} }},
 	{{ {606, 374, -289}, 0, {293, 496}, {195, 144, 0, 255} }},
@@ -2753,8 +2753,8 @@ Vtx castle_grounds_dl_Slide_mesh_layer_1_vtx_0[300] = {
 	{{ {135, 841, 186}, 0, {624, 120}, {136, 43, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Slide_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(3, 0, 4, 0),
@@ -2765,7 +2765,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 15, 13, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 16, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 16, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(3, 0, 4, 0),
@@ -2778,7 +2778,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(11, 13, 12, 0),
 	gsSP1Triangle(13, 14, 12, 0),
 	gsSP1Triangle(13, 15, 14, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 32, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 32, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(3, 4, 1, 0),
@@ -2791,7 +2791,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(11, 12, 13, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(13, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 48, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 48, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(3, 0, 4, 0),
@@ -2804,7 +2804,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(12, 13, 11, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(13, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 64, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 64, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(3, 0, 4, 0),
@@ -2817,7 +2817,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(12, 13, 11, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(13, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 80, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 80, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 3, 0, 0),
@@ -2832,7 +2832,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(12, 13, 11, 0),
 	gsSP1Triangle(11, 13, 14, 0),
 	gsSP1Triangle(13, 15, 14, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 96, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 96, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(1, 3, 2, 0),
 	gsSP1Triangle(1, 4, 3, 0),
@@ -2845,7 +2845,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(12, 11, 13, 0),
 	gsSP1Triangle(14, 12, 13, 0),
 	gsSP1Triangle(14, 13, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 112, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 112, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2858,7 +2858,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(13, 11, 12, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(15, 13, 14, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 128, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 128, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(3, 0, 2, 0),
 	gsSP1Triangle(3, 2, 4, 0),
@@ -2871,7 +2871,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(11, 12, 13, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(13, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 144, 14, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 144, 14, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2880,7 +2880,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(7, 8, 9, 0),
 	gsSP1Triangle(10, 11, 12, 0),
 	gsSP1Triangle(10, 12, 13, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 158, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 158, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2889,7 +2889,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 174, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 174, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2902,7 +2902,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(11, 13, 12, 0),
 	gsSP1Triangle(13, 14, 12, 0),
 	gsSP1Triangle(13, 15, 14, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 190, 14, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 190, 14, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(3, 4, 1, 0),
@@ -2913,7 +2913,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(10, 11, 9, 0),
 	gsSP1Triangle(11, 10, 12, 0),
 	gsSP1Triangle(11, 12, 13, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 204, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 204, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2922,7 +2922,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 220, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 220, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2931,7 +2931,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 236, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 236, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2940,7 +2940,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 252, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 252, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2949,7 +2949,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 268, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 268, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2958,7 +2958,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_0 + 284, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_0 + 284, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2970,7 +2970,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Slide_mesh_layer_1_vtx_1[32] = {
+Vtx _dl_Slide_mesh_layer_1_vtx_1[32] = {
 	{{ {1472, 70, -186}, 0, {624, 496}, {29, 124, 0, 255} }},
 	{{ {1299, 110, -186}, 0, {639, 496}, {29, 124, 0, 255} }},
 	{{ {1299, 110, 186}, 0, {639, 240}, {29, 124, 0, 255} }},
@@ -3005,8 +3005,8 @@ Vtx castle_grounds_dl_Slide_mesh_layer_1_vtx_1[32] = {
 	{{ {260, 681, 186}, 0, {729, 240}, {18, 126, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_1[] = {
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_1 + 0, 16, 0),
+Gfx _dl_Slide_mesh_layer_1_tri_1[] = {
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_1 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3015,7 +3015,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_1[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Slide_mesh_layer_1_vtx_1 + 16, 16, 0),
+	gsSPVertex(_dl_Slide_mesh_layer_1_vtx_1 + 16, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3027,7 +3027,7 @@ Gfx castle_grounds_dl_Slide_mesh_layer_1_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Cube_mesh_layer_1_vtx_0[24] = {
+Vtx _dl_Cube_mesh_layer_1_vtx_0[24] = {
 	{{ {-874, -100, 2344}, 0, {368, 1008}, {129, 0, 0, 255} }},
 	{{ {-874, 100, 2344}, 0, {624, 1008}, {129, 0, 0, 255} }},
 	{{ {-874, 100, -2344}, 0, {624, 752}, {129, 0, 0, 255} }},
@@ -3054,8 +3054,8 @@ Vtx castle_grounds_dl_Cube_mesh_layer_1_vtx_0[24] = {
 	{{ {874, 100, 2344}, 0, {624, 240}, {0, 127, 0, 255} }},
 };
 
-Gfx castle_grounds_dl_Cube_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Cube_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Cube_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Cube_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3064,7 +3064,7 @@ Gfx castle_grounds_dl_Cube_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Cube_mesh_layer_1_vtx_0 + 16, 8, 0),
+	gsSPVertex(_dl_Cube_mesh_layer_1_vtx_0 + 16, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3072,7 +3072,7 @@ Gfx castle_grounds_dl_Cube_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0[132] = {
+Vtx _dl_Cube_004_mesh_layer_1_vtx_0[132] = {
 	{{ {-112, -469, 346}, 0, {368, 1008}, {129, 0, 0, 255} }},
 	{{ {-112, -269, 346}, 0, {624, 1008}, {129, 0, 0, 255} }},
 	{{ {-112, -269, 146}, 0, {624, 752}, {129, 0, 0, 255} }},
@@ -3207,8 +3207,8 @@ Vtx castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0[132] = {
 	{{ {-614, -681, -1260}, 0, {368, 752}, {0, 0, 127, 255} }},
 };
 
-Gfx castle_grounds_dl_Cube_004_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0 + 0, 16, 0),
+Gfx _dl_Cube_004_mesh_layer_1_tri_0[] = {
+	gsSPVertex(_dl_Cube_004_mesh_layer_1_vtx_0 + 0, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3219,7 +3219,7 @@ Gfx castle_grounds_dl_Cube_004_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(10, 13, 11, 0),
 	gsSP1Triangle(11, 13, 14, 0),
 	gsSP1Triangle(11, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0 + 16, 16, 0),
+	gsSPVertex(_dl_Cube_004_mesh_layer_1_vtx_0 + 16, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 1, 3, 0),
 	gsSP1Triangle(2, 3, 4, 0),
@@ -3232,7 +3232,7 @@ Gfx castle_grounds_dl_Cube_004_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(9, 12, 13, 0),
 	gsSP1Triangle(13, 12, 14, 0),
 	gsSP1Triangle(13, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0 + 32, 14, 0),
+	gsSPVertex(_dl_Cube_004_mesh_layer_1_vtx_0 + 32, 14, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -3241,7 +3241,7 @@ Gfx castle_grounds_dl_Cube_004_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(6, 8, 9, 0),
 	gsSP1Triangle(10, 11, 12, 0),
 	gsSP1Triangle(10, 12, 13, 0),
-	gsSPVertex(castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0 + 46, 14, 0),
+	gsSPVertex(_dl_Cube_004_mesh_layer_1_vtx_0 + 46, 14, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(3, 0, 4, 0),
@@ -3250,7 +3250,7 @@ Gfx castle_grounds_dl_Cube_004_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(6, 8, 9, 0),
 	gsSP1Triangle(10, 11, 12, 0),
 	gsSP1Triangle(10, 12, 13, 0),
-	gsSPVertex(castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0 + 60, 14, 0),
+	gsSPVertex(_dl_Cube_004_mesh_layer_1_vtx_0 + 60, 14, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(1, 3, 4, 0),
@@ -3259,7 +3259,7 @@ Gfx castle_grounds_dl_Cube_004_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(6, 8, 9, 0),
 	gsSP1Triangle(10, 11, 12, 0),
 	gsSP1Triangle(10, 12, 13, 0),
-	gsSPVertex(castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0 + 74, 16, 0),
+	gsSPVertex(_dl_Cube_004_mesh_layer_1_vtx_0 + 74, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3268,7 +3268,7 @@ Gfx castle_grounds_dl_Cube_004_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0 + 90, 14, 0),
+	gsSPVertex(_dl_Cube_004_mesh_layer_1_vtx_0 + 90, 14, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(0, 3, 4, 0),
@@ -3277,7 +3277,7 @@ Gfx castle_grounds_dl_Cube_004_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(6, 8, 9, 0),
 	gsSP1Triangle(10, 11, 12, 0),
 	gsSP1Triangle(10, 12, 13, 0),
-	gsSPVertex(castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0 + 104, 16, 0),
+	gsSPVertex(_dl_Cube_004_mesh_layer_1_vtx_0 + 104, 16, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3286,7 +3286,7 @@ Gfx castle_grounds_dl_Cube_004_mesh_layer_1_tri_0[] = {
 	gsSP1Triangle(8, 10, 11, 0),
 	gsSP1Triangle(12, 13, 14, 0),
 	gsSP1Triangle(12, 14, 15, 0),
-	gsSPVertex(castle_grounds_dl_Cube_004_mesh_layer_1_vtx_0 + 120, 12, 0),
+	gsSPVertex(_dl_Cube_004_mesh_layer_1_vtx_0 + 120, 12, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3296,191 +3296,191 @@ Gfx castle_grounds_dl_Cube_004_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_Hanging[] = {
+Gfx mat__dl_Hanging[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_Hanging_lights),
+	gsSPSetLights1(_dl_Hanging_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_Hor__Wind[] = {
+Gfx mat__dl_Hor__Wind[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_Hor__Wind_lights),
+	gsSPSetLights1(_dl_Hor__Wind_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_Sand_003[] = {
+Gfx mat__dl_Sand_003[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_Sand_003_lights),
+	gsSPSetLights1(_dl_Sand_003_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_f3dlite_material_004[] = {
+Gfx mat__dl_f3dlite_material_004[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_f3dlite_material_004_lights),
+	gsSPSetLights1(_dl_f3dlite_material_004_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_Slippery[] = {
+Gfx mat__dl_Slippery[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_Slippery_lights),
+	gsSPSetLights1(_dl_Slippery_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_F3D_Death[] = {
+Gfx mat__dl_F3D_Death[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_F3D_Death_lights),
+	gsSPSetLights1(_dl_F3D_Death_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_Standard_001[] = {
+Gfx mat__dl_Standard_001[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_Standard_001_lights),
+	gsSPSetLights1(_dl_Standard_001_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_Standard[] = {
+Gfx mat__dl_Standard[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_Standard_lights),
+	gsSPSetLights1(_dl_Standard_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_PillarTex[] = {
+Gfx mat__dl_PillarTex[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_PillarTex_lights),
+	gsSPSetLights1(_dl_PillarTex_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_Slide[] = {
+Gfx mat__dl_Slide[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_Slide_lights),
+	gsSPSetLights1(_dl_Slide_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_bright_standard[] = {
+Gfx mat__dl_bright_standard[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(castle_grounds_dl_bright_standard_lights),
+	gsSPSetLights1(_dl_bright_standard_lights),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Balance_Beam_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_Hanging),
-	gsSPDisplayList(castle_grounds_dl_Balance_Beam_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_castle_grounds_dl_Hor__Wind),
-	gsSPDisplayList(castle_grounds_dl_Balance_Beam_mesh_layer_1_tri_1),
+Gfx _dl_Balance_Beam_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_Hanging),
+	gsSPDisplayList(_dl_Balance_Beam_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat__dl_Hor__Wind),
+	gsSPDisplayList(_dl_Balance_Beam_mesh_layer_1_tri_1),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Balance_Beam_001_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_Hanging),
-	gsSPDisplayList(castle_grounds_dl_Balance_Beam_001_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_castle_grounds_dl_Hor__Wind),
-	gsSPDisplayList(castle_grounds_dl_Balance_Beam_001_mesh_layer_1_tri_1),
+Gfx _dl_Balance_Beam_001_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_Hanging),
+	gsSPDisplayList(_dl_Balance_Beam_001_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat__dl_Hor__Wind),
+	gsSPDisplayList(_dl_Balance_Beam_001_mesh_layer_1_tri_1),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Ball_Pit_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_Sand_003),
-	gsSPDisplayList(castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_castle_grounds_dl_f3dlite_material_004),
-	gsSPDisplayList(castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_castle_grounds_dl_Slippery),
-	gsSPDisplayList(castle_grounds_dl_Ball_Pit_mesh_layer_1_tri_2),
+Gfx _dl_Ball_Pit_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_Sand_003),
+	gsSPDisplayList(_dl_Ball_Pit_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat__dl_f3dlite_material_004),
+	gsSPDisplayList(_dl_Ball_Pit_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat__dl_Slippery),
+	gsSPDisplayList(_dl_Ball_Pit_mesh_layer_1_tri_2),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_DeathPlane_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_F3D_Death),
-	gsSPDisplayList(castle_grounds_dl_DeathPlane_mesh_layer_1_tri_0),
+Gfx _dl_DeathPlane_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_F3D_Death),
+	gsSPDisplayList(_dl_DeathPlane_mesh_layer_1_tri_0),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Door_Pillar_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_Standard_001),
-	gsSPDisplayList(castle_grounds_dl_Door_Pillar_mesh_layer_1_tri_0),
+Gfx _dl_Door_Pillar_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_Standard_001),
+	gsSPDisplayList(_dl_Door_Pillar_mesh_layer_1_tri_0),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Door_Pillar_001_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_Standard_001),
-	gsSPDisplayList(castle_grounds_dl_Door_Pillar_001_mesh_layer_1_tri_0),
+Gfx _dl_Door_Pillar_001_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_Standard_001),
+	gsSPDisplayList(_dl_Door_Pillar_001_mesh_layer_1_tri_0),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Floor_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_Standard),
-	gsSPDisplayList(castle_grounds_dl_Floor_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_castle_grounds_dl_f3dlite_material_004),
-	gsSPDisplayList(castle_grounds_dl_Floor_mesh_layer_1_tri_1),
+Gfx _dl_Floor_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_Standard),
+	gsSPDisplayList(_dl_Floor_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat__dl_f3dlite_material_004),
+	gsSPDisplayList(_dl_Floor_mesh_layer_1_tri_1),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Pillar_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_PillarTex),
-	gsSPDisplayList(castle_grounds_dl_Pillar_mesh_layer_1_tri_0),
+Gfx _dl_Pillar_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_PillarTex),
+	gsSPDisplayList(_dl_Pillar_mesh_layer_1_tri_0),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Pillar_2_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_PillarTex),
-	gsSPDisplayList(castle_grounds_dl_Pillar_2_mesh_layer_1_tri_0),
+Gfx _dl_Pillar_2_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_PillarTex),
+	gsSPDisplayList(_dl_Pillar_2_mesh_layer_1_tri_0),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Pillar_3_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_PillarTex),
-	gsSPDisplayList(castle_grounds_dl_Pillar_3_mesh_layer_1_tri_0),
+Gfx _dl_Pillar_3_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_PillarTex),
+	gsSPDisplayList(_dl_Pillar_3_mesh_layer_1_tri_0),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Pillar_4_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_PillarTex),
-	gsSPDisplayList(castle_grounds_dl_Pillar_4_mesh_layer_1_tri_0),
+Gfx _dl_Pillar_4_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_PillarTex),
+	gsSPDisplayList(_dl_Pillar_4_mesh_layer_1_tri_0),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Slide_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_Standard),
-	gsSPDisplayList(castle_grounds_dl_Slide_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_castle_grounds_dl_Slide),
-	gsSPDisplayList(castle_grounds_dl_Slide_mesh_layer_1_tri_1),
+Gfx _dl_Slide_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_Standard),
+	gsSPDisplayList(_dl_Slide_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat__dl_Slide),
+	gsSPDisplayList(_dl_Slide_mesh_layer_1_tri_1),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Cube_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_bright_standard),
-	gsSPDisplayList(castle_grounds_dl_Cube_mesh_layer_1_tri_0),
+Gfx _dl_Cube_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_bright_standard),
+	gsSPDisplayList(_dl_Cube_mesh_layer_1_tri_0),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_Cube_004_mesh_layer_1[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_PillarTex),
-	gsSPDisplayList(castle_grounds_dl_Cube_004_mesh_layer_1_tri_0),
+Gfx _dl_Cube_004_mesh_layer_1[] = {
+	gsSPDisplayList(mat__dl_PillarTex),
+	gsSPDisplayList(_dl_Cube_004_mesh_layer_1_tri_0),
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_material_revert_render_settings[] = {
+Gfx _dl_material_revert_render_settings[] = {
 	gsDPPipeSync(),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPClearGeometryMode(G_TEXTURE_GEN),

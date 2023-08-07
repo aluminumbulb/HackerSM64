@@ -13,24 +13,23 @@
 #endif
 
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
-Wow! You're smack in the\n\
-middle of the battlefield.\n\
-You'll find the Power\n\
-Stars that Bowser stole\n\
-inside the painting\n\
-worlds.\n\
-First, talk to the\n\
-Bob-omb Buddy. (Press [B]\n\
-to talk.) He'll certainly\n\
-help you out, and so will\n\
-his " COMRADES " in other\n\
-areas.\n\
-To read signs, stop, face\n\
-them and press [B]. Press [A]\n\
-or [B] to scroll ahead. You\n\
-can talk to some other\n\
-characters by facing them\n\
-and pressing [B]."))
+Welcome to my Funhouse!\n\
+Alright, so not that fun\n\
+I know.\n\
+This hack is made for\n\
+SimpleFlip's\n\
+Troll Hack Comp\n\
+I don't have the heart\n\
+of a true troll\n\
+So please enjoy an\n\ 
+inconvenient room\n\
+A little birdy told me\n\
+There is one star in\n\ 
+this room\n\
+(And this entire Hack)\n\
+Maybe they can help\n\ 
+you find it!\n\
+"))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
 Watch out! If you wander\n\

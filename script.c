@@ -11,49 +11,27 @@
 
 #include "levels/scripts.h"
 
-#include "actors/common1.h"
 
 /* Fast64 begin persistent block [includes] */
 /* Fast64 end persistent block [includes] */
 
 #include "make_const_nonconst.h"
-#include "levels/castle_grounds/header.h"
+#include "levels//header.h"
 
 /* Fast64 begin persistent block [scripts] */
 /* Fast64 end persistent block [scripts] */
 
-const LevelScript level_castle_grounds_entry[] = {
+const LevelScript level__entry[] = {
 	INIT_LEVEL(),
-	LOAD_YAY0(0x07, _castle_grounds_segment_7SegmentRomStart, _castle_grounds_segment_7SegmentRomEnd), 
-	LOAD_YAY0(0x0A, _water_skybox_yay0SegmentRomStart, _water_skybox_yay0SegmentRomEnd), 
-	LOAD_YAY0_TEXTURE(0x09, _outside_yay0SegmentRomStart, _outside_yay0SegmentRomEnd), 
-	LOAD_YAY0(0x05, _group10_yay0SegmentRomStart, _group10_yay0SegmentRomEnd), 
-	LOAD_RAW(0x0C, _group10_geoSegmentRomStart, _group10_geoSegmentRomEnd), 
-	LOAD_YAY0(0x06, _group15_yay0SegmentRomStart, _group15_yay0SegmentRomEnd), 
-	LOAD_RAW(0x0D, _group15_geoSegmentRomStart, _group15_geoSegmentRomEnd), 
-	LOAD_YAY0(0x08, _common0_yay0SegmentRomStart, _common0_yay0SegmentRomEnd), 
-	LOAD_RAW(0x0F, _common0_geoSegmentRomStart, _common0_geoSegmentRomEnd), 
-	LOAD_MIO0(0x7, _castle_grounds_segment_7SegmentRomStart, _castle_grounds_segment_7SegmentRomEnd), 
+	LOAD_MIO0(0x7, __segment_7SegmentRomStart, __segment_7SegmentRomEnd), 
 	LOAD_MIO0(0xa, _bbh_skybox_mio0SegmentRomStart, _bbh_skybox_mio0SegmentRomEnd), 
 	ALLOC_LEVEL_POOL(),
-	MARIO(MODEL_MARIO, 0x00000001, bhvMario), 
-	JUMP_LINK(script_func_global_1), 
-	JUMP_LINK(script_func_global_11), 
-	JUMP_LINK(script_func_global_16), 
-	LOAD_MODEL_FROM_GEO(MODEL_LEVEL_GEOMETRY_03, castle_grounds_geo_0006F4), 
-	LOAD_MODEL_FROM_GEO(MODEL_CASTLE_GROUNDS_BUBBLY_TREE, bubbly_tree_geo), 
-	LOAD_MODEL_FROM_GEO(MODEL_CASTLE_GROUNDS_WARP_PIPE, warp_pipe_geo), 
-	LOAD_MODEL_FROM_GEO(MODEL_CASTLE_GROUNDS_CASTLE_DOOR, castle_door_geo), 
-	LOAD_MODEL_FROM_GEO(MODEL_CASTLE_GROUNDS_METAL_DOOR, metal_door_geo), 
-	LOAD_MODEL_FROM_GEO(MODEL_CASTLE_GROUNDS_VCUTM_GRILL, castle_grounds_geo_00070C), 
-	LOAD_MODEL_FROM_GEO(MODEL_CASTLE_GROUNDS_FLAG, castle_grounds_geo_000660), 
-	LOAD_MODEL_FROM_GEO(MODEL_CASTLE_GROUNDS_CANNON_GRILL, castle_grounds_geo_000724), 
-	LOAD_MODEL_FROM_GEO(MODEL_WOODEN_SIGNPOST, wooden_signpost_geo), 
+	MARIO(MODEL_MARIO, 0x00000001, bhvMario),
 
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 end persistent block [level commands] */
 
-	AREA(1, castle_grounds_area_1),
+	AREA(1, _area_1),
 		WARP_NODE(0x0A, LEVEL_CASTLE_GROUNDS, 0x01, 0x0A, WARP_NO_CHECKPOINT),
 		WARP_NODE(0xF0, LEVEL_ENDING, 0x01, 0x0A, WARP_NO_CHECKPOINT),
 		WARP_NODE(0xF1, LEVEL_CASTLE_GROUNDS, 0x01, 0x0A, WARP_NO_CHECKPOINT),
@@ -65,20 +43,20 @@ const LevelScript level_castle_grounds_entry[] = {
 		OBJECT(MODEL_STAR, -2109, 1880, -1570, 0, 0, 0, 0x00000000, bhvStar),
 		MARIO_POS(0x01, 0, 1608, 387, 66),
 		MARIO_POS(0x01, 0, 1608, 387, 66),
-		TERRAIN(castle_grounds_area_1_collision),
-		MACRO_OBJECTS(castle_grounds_area_1_macro_objs),
+		TERRAIN(_area_1_collision),
+		MACRO_OBJECTS(_area_1_macro_objs),
 		STOP_MUSIC(0),
 		TERRAIN_TYPE(TERRAIN_SPOOKY),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 
-	AREA(2, castle_grounds_area_2),
+	AREA(2, _area_2),
 		OBJECT(MODEL_BLACK_BOBOMB, 1685, 262, 482, 0, 0, 0, 0x00000000, bhvGoomba),
 		OBJECT(MODEL_BLACK_BOBOMB, 1691, 196, -77, 0, 0, 0, 0x00000000, bhvGoomba),
 		OBJECT(MODEL_WOODEN_SIGNPOST, 984, -126, -97, 0, 0, 0, 0x00000000, bhvSignOnWall),
-		TERRAIN(castle_grounds_area_2_collision),
-		MACRO_OBJECTS(castle_grounds_area_2_macro_objs),
+		TERRAIN(_area_2_collision),
+		MACRO_OBJECTS(_area_2_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
 		TERRAIN_TYPE(TERRAIN_GRASS),
 		/* Fast64 begin persistent block [area commands] */
